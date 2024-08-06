@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 function LandingPage() {
     return (
-        <div className="flex flex-col md:flex-row justify-between w-full">
-            <div className="flex flex-col gap-4 w-full md:w-1/2 text-[--text] order-2 md:order-1 mb-4 md:mb-0">
+        <div className="flex flex-col md:flex-row justify-between w-full mt-6 md:mt-24 2xl:mt-48">
+            <div className="flex flex-col gap-4 w-full md:w-1/2 text-[--text] order-2 md:order-1 mb-4 md:mb-0 animate__fadeInLeft duration-1000">
                 <p className="text-xl md:text-3xl">
                     Olá, eu sou Sthefany,
                 </p>
@@ -19,7 +19,7 @@ function LandingPage() {
                     <span className="absolute -translate-y-2 -translate-x-2 w-full h-full border border-yellow-700 rounded-md transition duration-300 hover:-translate-y-0 hover:-translate-x-0 "/>
                 </Button>
             </div>
-            <div className="flex flex-col gap-4 w-full md:w-1/2 text-[--text] max-h-[500px] order-1 md:order-2 mb-6 md:mb-0">
+            <div className="flex flex-col gap-4 w-full md:w-1/2 text-[--text] max-h-[500px] order-1 md:order-2 mb-6 md:mb-0 animate__fadeInRight duration-1000">
                 <div className="flex min-w-[100%] min-h-[100%] relative">
                     <img className="object-contain min-w-[100%] min-h-[100%]" src="/assets/perfil.png"
                          alt="Foto de perfil" width={400} height={400}/>
